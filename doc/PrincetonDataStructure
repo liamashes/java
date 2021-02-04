@@ -1,0 +1,24 @@
+Princeton:
+    overview
+    UnionFind
+    StackQueue
+    Sorting
+    AdvTopicsSorting
+    PriorityQueues
+    SymbolTables
+    BinarySearchTrees
+    BalancedTrees
+    Hashing
+    UndirectedGraphs
+    DirectedGraphs
+    MST
+    ShortestPaths
+    Geometric
+    GeometricSearch
+    RadixSort
+    Tries
+    Compression
+    PatternMatching
+    LinearProgramming
+    Reductions
+    CombinatorialSearch

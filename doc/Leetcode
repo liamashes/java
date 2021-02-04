@@ -1,0 +1,37 @@
+Always record keys
+
+0.Time Complexity & Space Complexity
+1.BFS, Level Order traverse, UnionFind, Topological Sort, Dijkstra
+    Ds: Queue(hierarchy)
+    a. BFS：
+        base: mostly better than DFS in solving problems, not in several special occasions[??????]
+    b. UnionFInd:
+    c. Level Order traverse:
+        base: queue, list
+        1). level: use for loop for each queue poll
+        2). vertical: use double queue to record node and index, use hashmap to store list by index
+        3). zigzag: flag
+        4). one direction: while & +=
+    d. N-ary Tree
+        1). preorder: current, left, right, using stack and LinkedList
+        2). postorder: current, right, left, using stack and List
+        3). inorder: left current, right
+        4). serialize and deserialize: N-ary Tree, Binary Tree, BST
+        5). morris traversal:
+    e. Topological Sort
+        1.统计所有点的入度，并初始化拓扑序列为空。
+
+        2.将所有入度为 0 的点，也就是那些没有任何依赖的点，放到宽度优先搜索的队列中
+
+        3.将队列中的点一个一个的释放出来，放到拓扑序列中，每次释放出某个点 A 的时候，就访问 A 的相邻点（所有A指向的点），并把这些点的入度减去 1。
+
+        4.如果发现某个点的入度被减去 1 之后变成了 0，则放入队列中。
+
+        5.直到队列为空时，算法结束，
+    f. Dijkstra
+        1.
+        2.图的初始化：路径唯一：hashmap；多路径：list
+        3.优先级队列升序/降序？队列入口初始化方式？
+        4.if判定的位置
+        5.visited
+        6.记录最大值/最小值
